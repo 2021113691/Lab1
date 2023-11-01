@@ -11,11 +11,6 @@ CLIENT_PORT = 12138
 SERVER_HOST = '127.0.0.1'
 SERVER_PORT = 12139
 MAX_SEQ_NUM = 6
-"""
-要处理的问题
-1.解决发送线程和接受线程的相互阻塞问题
-2.序号使用完之后要重新分配序号  send过程 和rcv_data过程  √
-"""
 
 
 def main():
